@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic');
+@import url('https://fonts.googleapis.com/css?family=Felipa');
+
+body {
+    font-family: 'Gentium Book Basic', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+p {
+    line-height: 1.8;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+}
+/*------------------------------------------------------------------------------
+HEADER
+------------------------------------------------------------------------------*/
+#content img:first-child {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+#content img:last-child {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+#content h3 a {
+    font-style: italic;
+}
+#content h2 a {
+    font-family: 'Felipa', cursive;
+    color: #5E7573;
+}
+
+/*------------------------------------------------------------------------------
+SECTION
+------------------------------------------------------------------------------*/
+span.emphasis {
+    font-style: italic;
+}
+span.underline {
+    text-decoration: underline;
+}
+span.bold {
+    font-weight: bold;
+}
+span.italic {
+    font-style: italic;
+}
+/*------------------------------------------------------------------------------
+FOOTER
+------------------------------------------------------------------------------*/
+.footer-wrapper span {
+    float: right;
+}
